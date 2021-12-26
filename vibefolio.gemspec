@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "vibefolio"
   spec.version       = "0.0.1"
   spec.authors       = ["dheerkt"]
-  spec.email         = ["dheerkt@hotmail.com"]
+  spec.email         = ["dheerktoprani@gmail.com"]
 
   spec.summary       = "A minimal personal portfolio Jekyll-theme."
   spec.homepage      = "http://github.com/dheerkt"
