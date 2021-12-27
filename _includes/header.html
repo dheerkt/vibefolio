@@ -1,4 +1,8 @@
 <header>
-    {% include navigation.html %}
-    <div class="logo">{{ site.title }}</div>
+    <table>
+        <tr>
+            <td class="logo">{{ site.title }}</td>
+            <td>{% include navigation.html %}</td>
+        </tr>
+    </table>
 </header>
