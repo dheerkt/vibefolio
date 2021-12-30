@@ -1,9 +1,13 @@
+# Replace the following text
+## Content
 title: "Dheer Toprani"
 
+## Links
 github_link: "http://github.com/dheerkt"
 email_address: "dheerktoprani@gmail.com"
 linkedin_link: "http://linkedin.com/in/dheerkt"
 
+# Do not replace the text below
 collections: 
   projects:
     output: true
