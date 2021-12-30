@@ -1,7 +1,7 @@
 ---
-title: "@ARKTradesBot"
-brief: "Publishes daily trades on Twitter"
+title: "Project Lorem Ipsum"
+brief: "Really cool project"
 layout: page
-link: "https://twitter.com/arktradesbot"
-yyyymm: 202104
+link: "https://github.com/mdeanda/lorem"
+yyyymm: 202101
 ---
