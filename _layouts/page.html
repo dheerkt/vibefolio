@@ -1,5 +1,14 @@
----
-layout: default
----
-yoyo
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    <div class="container">
+        {% include header.html %}
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </div>
+</body>
+</html>

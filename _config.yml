@@ -1,5 +1,9 @@
 title: "Dheer Toprani"
 
+github_link: "http://github.com/dheerkt"
+email_address: "dheerktoprani@gmail.com"
+linkedin_link: "http://linkedin.com/in/dheerkt"
+
 collections: 
   projects:
     output: true
