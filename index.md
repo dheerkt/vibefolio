@@ -4,12 +4,6 @@ title: Home
 navigation_weight: 1
 ---
 
-### about me
+I study Computer Science and Finance at the University of Virginia.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra fermentum commodo. 
-
-Quisque id mi at odio lobortis mollis. Cras pellentesque bibendum leo vitae sodales. Nullam pellentesque neque ac nisl fermentum, nec lacinia est lobortis.
-
-<br>
-  
-### stuff I worked on
+Previously, I interned at Amazon Web Services, and helped with research at the UVA Global Policy Center. Check out some of my past projects below.

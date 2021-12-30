@@ -1,0 +1,14 @@
+<h3>Projects</h3>
+
+<ul class="projects">
+    {% assign projs = site.projects | sort: 'yyyymm' | reverse %}
+    {% for proj in projs %}
+    <li>
+        <a {% if proj.link %} href="{{ proj.link }}" {% else %} href="{{ proj.url }}" {% endif %}>
+            <span class="desc">{{ proj.title }} &mdash; {{ proj.brief }}</span>
+            <span class="year">{{ proj.yyyymm | slice: 0, 4 }}</span>
+        </a>
+    </li>
+    <br><br>
+    {% endfor %}
+</ul>

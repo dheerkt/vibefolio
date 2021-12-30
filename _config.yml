@@ -1,3 +1,6 @@
 title: "Dheer Toprani"
-about: >-
-  I study Computer Science and Finance at the University of Virginia.
+
+collections: 
+  projects:
+    output: true
+    permalink: /projects/:path/

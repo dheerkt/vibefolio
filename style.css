@@ -9,6 +9,11 @@ body {
 	width: 560px;
 }
 
+a {
+	text-decoration: none;
+	color: #F92C85;
+}
+
 header {
 	margin-bottom: 10%;
 	padding-top: 5%;
@@ -20,10 +25,13 @@ header table {
 }
 
 .logo {
-	font-size: 1.25em;
 	font-weight: 800;
 	padding-left: 0;
 	flex: 1;
+}
+
+.logo a {
+	color: #000;
 }
 
 .main-nav ul {
@@ -37,8 +45,6 @@ header table {
 }
 
 .main-nav ul li a {
-	text-decoration: none;
-	color: #F92C85;
 	text-align: center
 }
 
@@ -50,6 +56,26 @@ header table {
 	border-bottom: 1px solid #F92C85;
 }
 
+.wrapper {
+	margin-bottom: 10%;
+}
+
 p {
 	line-height: 2em;
+}
+
+ul.projects {
+	width: 100%;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.projects li a span.desc {
+	float:left;
+	border-bottom: 1px solid #F92C85;
+}
+
+ul.projects li a span.year {
+	float: right;
+	font-size: 0.9em;
 }

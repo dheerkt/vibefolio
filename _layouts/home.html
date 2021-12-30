@@ -7,7 +7,10 @@
 <body>
     <div class="container">
         {% include header.html %}
-        {{ content }}
-    </div>  
+        <div class="wrapper">
+            {{ content }}
+        </div>
+        {% include projects.html %}
+    </div>
 </body>
 </html>
