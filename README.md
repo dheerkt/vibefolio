@@ -1,4 +1,5 @@
 # Vibefolio
+![screenshot of Vibefolio theme](screenshot.png)
 
 ## What is this?
 Vibefolio is a minimalist [Jekyll](https://jekyllrb.com) theme made for text-focused online portfolios. The out-of-the-box template supports:
@@ -14,7 +15,7 @@ Vibefolio is a minimalist [Jekyll](https://jekyllrb.com) theme made for text-foc
 3. Add future **projects** as Markdown `(.md)` files to the `_projects` folder. 
 
 ## Google Analytics
-You can add the Javascript into the `default.html` [layout](https://jekyllrb.com/docs/layouts/) right above the `</body>` tag.
+You can add the Javascript into the `home.html` [layout](https://jekyllrb.com/docs/layouts/) right above the `</body>` tag.
 
 ## Future Updates
-Vibefolio is currently in v0.1.0. I initially created this theme for my personal website, where I didn't need to build additional pages like blog posts, contact page, about page, etc. As I eventually update my personal website to add these features, I will update this repository as well. No concrete plans as of now.
+Vibefolio is currently in v0.1.0. I initially created this theme for my personal website, where I didn't need to build additional pages like blog posts, contact page, about page, etc. As I eventually update my personal website to add these features, I will update this repository as well. No concrete plans or timeline as of now.
