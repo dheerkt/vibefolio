@@ -18,4 +18,4 @@ Vibefolio is a minimalist [Jekyll](https://jekyllrb.com) theme made for text-foc
 You can add the Javascript into the `home.html` [layout](https://jekyllrb.com/docs/layouts/) right above the `</body>` tag.
 
 ## Future Updates
-Vibefolio is currently in v0.1.0. I initially created this theme for my personal website, where I didn't need to build additional pages like blog posts, contact page, about page, etc. As I eventually update my personal website to add these features, I will update this repository as well. No concrete plans or timeline as of now.
+Vibefolio is currently in v0.1.1. I initially created this theme for my personal website, where I didn't need to build additional pages like blog posts, contact page, about page, etc. As I eventually update my personal website to add these features, I will update this repository as well. No concrete plans or timeline as of now.

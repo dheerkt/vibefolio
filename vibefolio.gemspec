@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "vibefolio"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Dheer Toprani"]
   spec.email         = ["dheerktoprani@gmail.com"]
 
