@@ -30,6 +30,10 @@ header table {
 	width: 100%;
 }
 
+header table tr td.mobile-nav {
+	display: none;
+}
+
 .logo {
 	font-weight: 800;
 	padding-left: 0;
@@ -83,4 +87,28 @@ ul.projects li a span.desc {
 ul.projects li a span.year {
 	float: right;
 	font-size: 0.9em;
+}
+
+/* Handle mobile styling below */
+@media only screen and (max-width: 600px) {
+	header table tr td.desktop-nav {
+		display: none;
+	}
+
+	header table tr td.mobile-nav {
+		display: table-cell;
+		font-size: 1.5em;
+		text-align: right;
+	}
+
+	header table tr td.mobile-nav:hover {
+		font-weight: bold;
+		color: #F92C85;
+	}
+
+	ul.projects li a span.desc {
+		display: block;
+		max-width: 90%;
+		margin-bottom: 1em;
+	}
 }
