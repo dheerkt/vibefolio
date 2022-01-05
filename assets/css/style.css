@@ -5,8 +5,15 @@ body {
 }
 
 .container {
-	margin: 0 auto;
-	width: 560px;
+	margin: auto;
+	padding: 3em 1em;
+	max-width: 60ch;
+	line-height: 2;
+	font-size: 1em;
+}
+
+p {
+	color: #1d1d1d;
 }
 
 a {
@@ -15,8 +22,7 @@ a {
 }
 
 header {
-	margin-bottom: 10%;
-	padding-top: 5%;
+	margin-bottom: 3em;
 	display: flex;
 }
 
@@ -60,19 +66,18 @@ header table {
 	margin-bottom: 10%;
 }
 
-p {
-	line-height: 2em;
-}
-
 ul.projects {
 	width: 100%;
 	padding: 0;
 	list-style-type: none;
 }
 
+ul.projects li {
+	padding: 0 0 3em 0;
+}
+
 ul.projects li a span.desc {
 	float:left;
-	border-bottom: 1px solid #F92C85;
 }
 
 ul.projects li a span.year {
