@@ -30,10 +30,6 @@ header table {
 	width: 100%;
 }
 
-header table tr td.mobile-nav {
-	display: none;
-}
-
 .logo {
 	font-weight: 800;
 	padding-left: 0;
@@ -91,24 +87,23 @@ ul.projects li a span.year {
 
 /* Handle mobile styling below */
 @media only screen and (max-width: 600px) {
-	header table tr td.desktop-nav {
-		display: none;
+	.main-nav ul {
+		list-style-type: none;
 	}
 
-	header table tr td.mobile-nav {
-		display: table-cell;
-		font-size: 1.5em;
-		text-align: right;
-	}
-
-	header table tr td.mobile-nav:hover {
-		font-weight: bold;
-		color: #F92C85;
+	.main-nav ul li {
+		display: block;
 	}
 
 	ul.projects li a span.desc {
 		display: block;
-		max-width: 90%;
+		max-width: 85%;
 		margin-bottom: 1em;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	ul.projects li a span.desc span.desc-brief {
+		display: none;
 	}
 }

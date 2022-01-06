@@ -5,7 +5,7 @@
     {% for proj in projs %}
     <li>
         <a {% if proj.link %} href="{{ proj.link }}" {% else %} href="{{ proj.url }}" {% endif %}>
-            <span class="desc">{{ proj.title }} &mdash; <span class="desc-brief">{{ proj.brief }}</span></span>
+            <span class="desc">{{ proj.title }}<span class="desc-brief"> &mdash; {{ proj.brief }}</span></span>
             <span class="year">{{ proj.yyyymm | slice: 0, 4 }}</span>
         </a>
     </li>
